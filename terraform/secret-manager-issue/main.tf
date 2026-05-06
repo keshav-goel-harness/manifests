@@ -27,12 +27,12 @@ resource "harness_platform_connector_github" "ghFD_Manifests" {
   name             = "ghFD_Manifests"
   org_id      = var.org_id
   project_id  = var.project_id
-  url              = "https://github.com/Fernando-Dourado/manifests"
+  url              = "https://github.com/keshav-goel-harness/manifests"
   connection_type  = "Repo"
-  delegate_selectors = ["zeaak-eks-cdplay-del-qa"]
+  delegate_selectors = ["kubernetes-delegate"]
   credentials {
     http {
-      username  = "Fernando-Dourado"
+      username  = "keshav-goel-harness"
       token_ref = "GH_PAT_for_FernandoD_on_AWS"
     }
   }
