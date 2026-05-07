@@ -2,7 +2,7 @@ service:
   name: service-remote-template
   identifier: service_remote_template
   orgIdentifier: default
-  projectIdentifier: FernandoD
+  projectIdentifier: Keshav_Test_Project
   serviceDefinition:
     spec:
       manifests:
