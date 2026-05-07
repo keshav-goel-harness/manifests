@@ -1,2 +1,2 @@
-org_id             = "Keshav_Test_Org"
+org_id             = "default"
 project_id         = "Keshav_Test_Project"
